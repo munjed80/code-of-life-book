@@ -422,7 +422,7 @@ HTML_HEAD = """<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8">
-<title>{title} — {author}</title>
+<title>{title} - {author}</title>
 <meta name="author" content="{author}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>

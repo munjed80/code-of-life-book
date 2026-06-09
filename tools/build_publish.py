@@ -427,28 +427,33 @@ HTML_HEAD = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   @page {{ size: A5; margin: 22mm 18mm; }}
-  html {{ font-size: 17px; }}
+  html {{ font-size: 21px; }}
   body {{
-    font-family: "Amiri", "Scheherazade New", "Traditional Arabic", "Times New Roman", serif;
-    line-height: 1.95;
-    color: #111;
-    background: #fff;
-    max-width: 720px;
+    font-family: "Noto Naskh Arabic", "Amiri", "Scheherazade New", "Traditional Arabic", "Tahoma", "Arial", "Times New Roman", serif;
+    font-weight: 450;
+    font-size: 1rem;
+    line-height: 2.05;
+    color: #1a1a1a;
+    background: #fafaf7;
+    max-width: 880px;
     margin: 0 auto;
-    padding: 2rem 1.25rem 4rem;
+    padding: 2.5rem 2rem 4rem;
     text-align: justify;
     direction: rtl;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }}
   h1, h2, h3, h4 {{
-    font-weight: 700;
-    line-height: 1.4;
+    font-weight: 800;
+    line-height: 1.5;
     margin: 1.6em 0 0.6em;
     text-align: right;
+    color: #0d0d0d;
   }}
-  h1 {{ font-size: 1.9rem; }}
-  h2 {{ font-size: 1.5rem; }}
-  h3 {{ font-size: 1.22rem; }}
-  h4 {{ font-size: 1.08rem; }}
+  h1 {{ font-size: 2.1rem; }}
+  h2 {{ font-size: 1.65rem; }}
+  h3 {{ font-size: 1.3rem; }}
+  h4 {{ font-size: 1.12rem; }}
   p {{ margin: 0 0 1em; text-indent: 1.2em; }}
   blockquote {{
     margin: 1.2em 0;
@@ -482,8 +487,20 @@ HTML_HEAD = """<!doctype html>
   .section {{ page-break-before: always; }}
   .section:first-of-type {{ page-break-before: auto; }}
   @media print {{
-    body {{ max-width: none; padding: 0; }}
+    body {{ max-width: none; padding: 0; background: #fff; font-size: 12pt; }}
     a {{ color: inherit; text-decoration: none; }}
+  }}
+  @media (max-width: 640px) {{
+    html {{ font-size: 20px; }}
+    body {{
+      padding: 1.25rem 1rem 2.5rem;
+      line-height: 2;
+    }}
+    body, p, li {{ font-size: 19px; }}
+    h1 {{ font-size: 1.7rem; }}
+    h2 {{ font-size: 1.4rem; }}
+    h3 {{ font-size: 1.2rem; }}
+    h4 {{ font-size: 1.05rem; }}
   }}
 </style>
 </head>

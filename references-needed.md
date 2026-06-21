@@ -63,4 +63,7 @@
 - `[^sadaqa-jariya-muslim]` حديث «إذا مات ابن آدم انقطع عمله إلا من ثلاث» — صحيح مسلم.
 
 ## الملحق (أ)
-- `[^chalmers-hard-problem]` David Chalmers (إعادة).
+- `[^chalmers-hard-problem]` David J. Chalmers, *Facing Up to the Problem of Consciousness*, J. Consciousness Studies, 1995.
+- `[^origin-of-life]` أصل الحياة (سؤال مفتوح) — Stanley L. Miller, *Science*, 1953؛ Walter Gilbert, *The RNA World*, Nature, 1986؛ وأعمال Jack W. Szostak في أنظمة الحياة البدائيّة.
+- `[^genetic-code]` الشيفرة الوراثيّة و«الصُّدفة المُجمَّدة» — Francis H. C. Crick, *The Origin of the Genetic Code*, J. Mol. Biol., 1968.
+- `[^consciousness-theories]` نظريّات الوعي المتنازَعة — Giulio Tononi, *An Information Integration Theory of Consciousness*, BMC Neuroscience, 2004؛ Bernard J. Baars, *A Cognitive Theory of Consciousness*, 1988؛ Stanislas Dehaene, *Consciousness and the Brain*, 2014.

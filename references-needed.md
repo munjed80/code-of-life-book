@@ -6,6 +6,7 @@
 
 ## الفصل الأول
 - `[^thermo]` القانون الثاني للديناميكا الحراريّة وزيادة الإنتروبيا — يُحال إلى مرجعٍ تمهيديّ معتمد في الفيزياء الإحصائيّة.
+- `[^entropy-distinction]` التمييز بين إنتروبيا بولتزمان–غِبس (الفيزياء الإحصائيّة، جول/كلفن) وإنتروبيا شانون (نظريّة المعلومات، بِتّات) — Claude E. Shannon, *A Mathematical Theory of Communication*, Bell System Technical Journal, 1948؛ ومبدأ لانداور: Rolf Landauer, *Irreversibility and Heat Generation in the Computing Process*, IBM J. Res. Dev., 1961.
 - `[^causality]` اعتراض هيوم على السببيّة وتعريف السببيّة بالتدخّل — Pearl, *Causality*، مع ذكر هيوم في موضعه التاريخيّ.
 - `[^contingency]` حجّة الإمكان — الغزاليّ في «الاقتصاد في الاعتقاد»، ابن سينا في «الإشارات»، ابن تيمية في «درء التعارض».
 
@@ -17,7 +18,10 @@
 
 ## الفصل الثالث
 - `[^contingency]` حجّة الإمكان (إعادة).
-- `[^fine-tuning]` Fine-tuning — يُحال إلى أدبيّاتٍ معتمدةٍ في الكوسمولوجيا.
+- `[^fine-tuning]` Fine-tuning — يُحال إلى أدبيّاتٍ معتمدةٍ في الكوسمولوجيا (Martin Rees, *Just Six Numbers*, 1999؛ Barnes & Lewis, *A Fortunate Universe*, 2016).
+- `[^constants]` القيم العدديّة للثوابت (α، mₑ، αₛ، Λ) بوحداتها: CODATA 2018 (α، mₑ)؛ Particle Data Group 2022 (αₛ)؛ Planck 2018 results VI, *A&A*, 2020 (Λ ونِسَب مكوّنات الكون)؛ مفارقة طاقة الفراغ: S. Weinberg, *The Cosmological Constant Problem*, Rev. Mod. Phys., 1989.
+- `[^fine-tuning-alternatives]` بدائل الضبط الدقيق: تعدّد الأكوان/المشهد الوتريّ — Susskind, *The Cosmic Landscape*, 2005؛ التنبّؤ الأنثروبيّ بالثابت الكونيّ — Weinberg, *Phys. Rev. Lett.*, 1987؛ التضخّم الأبديّ — Guth، Linde، Vilenkin (*Many Worlds in One*, 2006)؛ اقتراح اللاحدّ — Hartle & Hawking, *Phys. Rev. D*, 1983.
+- `[^limits-of-understanding]` حدود الفهم: نِسَب المادّة/الطاقة المظلمة — Planck 2018 results VI, *A&A*, 2020؛ مشكلة توحيد الكمّ والنسبيّة (الجاذبيّة الكموميّة) — مرجع تمهيديّ معتمد.
 - `[^itnotes]` ضوابط النقل عن ابن تيمية في «درء تعارض العقل والنقل».
 - `[^wigner-recall]` استذكار شاهد فيغنر السابق.
 
@@ -43,13 +47,16 @@
 - `[^aqilha-watawakkal]` حديث «اعقلها وتوكّل» — سنن الترمذيّ، أبواب صفة القيامة، رقم 2517 (مع ذِكر حكم المحدِّثين).
 
 ## الفصل التاسع
+- `[^chaos-complexity-bayes]` نظريّة الفوضى الحَتميّة والأنظمة المعقّدة والاستدلال البايزيّ — Edward N. Lorenz, *Deterministic Nonperiodic Flow*, J. Atmospheric Sciences, 1963؛ James Gleick, *Chaos: Making a New Science*, 1987؛ E. T. Jaynes, *Probability Theory: The Logic of Science*, 2003.
 - `[^dua-three-ways]` حديث الدعاء وأبوابه الثلاثة — يُحال إلى الكتاب والباب.
 - `[^kafara-bukhari-muslim]` حديث تكفير المصائب للذنوب — البخاريّ ومسلم.
 
 ## الفصل العاشر
+- `[^victim-blaming-biases]` التحيّزات المعرفيّة المُغذِّية للوم الضحيّة — Lerner & Simmons, *J. Pers. Soc. Psychol.*, 1966 (فرضيّة العالم العادل)؛ Lee Ross, *Adv. Exp. Soc. Psychol.*, 1977 (خطأ الإسناد الأساسيّ)؛ Baruch Fischhoff, *J. Exp. Psychol.*, 1975 (تحيّز الإدراك البعديّ).
 - `[^tafasir-shura-30]` تفسير «وَمَا أَصَابَكُم مِّن مُّصِيبَةٍ» (الشورى، 30) — الطبريّ، ابن كثير، السعديّ.
 
 ## الفصل الحادي عشر
+- `[^memory-traces]` هشاشةُ الأثر العصبيّ للذاكرة وقابليّتُها للتشويه (الطبقة الفيزيائيّة، تمييزًا لها عن السِّجِلّ الغيبيّ) — Elizabeth F. Loftus, *Creating False Memories*, Scientific American, 1997؛ Karim Nader, Glenn Schafe & Joseph LeDoux, *Nature*, 2000 (إعادة التماسك)؛ Susumu Tonegawa et al., *Science*, 2012–2015 (الأثر العصبيّ/engram).
 - `[^hadith-niyya-bukhari-muslim]` حديث «إنّما الأعمال بالنيّات» — البخاريّ ومسلم.
 - `[^sabaa-qabla-sabaa]` حديث «بادروا بالأعمال سبعًا» — يُحال إلى المصدر مع حكم المحدّثين.
 
@@ -59,4 +66,10 @@
 - `[^sadaqa-jariya-muslim]` حديث «إذا مات ابن آدم انقطع عمله إلا من ثلاث» — صحيح مسلم.
 
 ## الملحق (أ)
-- `[^chalmers-hard-problem]` David Chalmers (إعادة).
+- `[^chalmers-hard-problem]` David J. Chalmers, *Facing Up to the Problem of Consciousness*, J. Consciousness Studies, 1995.
+- `[^origin-of-life]` أصل الحياة (سؤال مفتوح) — Stanley L. Miller, *Science*, 1953؛ Walter Gilbert, *The RNA World*, Nature, 1986؛ وأعمال Jack W. Szostak في أنظمة الحياة البدائيّة.
+- `[^genetic-code]` الشيفرة الوراثيّة و«الصُّدفة المُجمَّدة» — Francis H. C. Crick, *The Origin of the Genetic Code*, J. Mol. Biol., 1968.
+- `[^consciousness-theories]` نظريّات الوعي المتنازَعة — Giulio Tononi, *An Information Integration Theory of Consciousness*, BMC Neuroscience, 2004؛ Bernard J. Baars, *A Cognitive Theory of Consciousness*, 1988؛ Stanislas Dehaene, *Consciousness and the Brain*, 2014.
+
+## الملحق (ب)
+- **الإنبات (شاهد توضيحيّ، فسيولوجيا النبات):** وصفُ الامتصاص والتنشيط الداخليّ وانقسام الخلايا وتمدُّد الجنين النباتيّ — يُحال إلى مرجعٍ معتمد في فسيولوجيا النبات (مثل Taiz & Zeiger, *Plant Physiology*). **وسم وظيفيّ:** شاهد توضيحيّ على «النظام المحفوظ المنتظِر شرطَه»، لا تفسيرٌ للآية. وقد أُضيف في القسم 4 فاصلٌ لفظيٌّ صريحٌ بين الآية والتمثيل الرمزيّ، استجابةً لملاحظة `CRITIQUE.md` حول خطر الانزلاق من النصّ القرآنيّ إلى التأمّل أو الزخرفة العلميّة.

@@ -6,6 +6,7 @@
 
 ## الفصل الأول
 - `[^thermo]` القانون الثاني للديناميكا الحراريّة وزيادة الإنتروبيا — يُحال إلى مرجعٍ تمهيديّ معتمد في الفيزياء الإحصائيّة.
+- `[^entropy-distinction]` التمييز بين إنتروبيا بولتزمان–غِبس (الفيزياء الإحصائيّة، جول/كلفن) وإنتروبيا شانون (نظريّة المعلومات، بِتّات) — Claude E. Shannon, *A Mathematical Theory of Communication*, Bell System Technical Journal, 1948؛ ومبدأ لانداور: Rolf Landauer, *Irreversibility and Heat Generation in the Computing Process*, IBM J. Res. Dev., 1961.
 - `[^causality]` اعتراض هيوم على السببيّة وتعريف السببيّة بالتدخّل — Pearl, *Causality*، مع ذكر هيوم في موضعه التاريخيّ.
 - `[^contingency]` حجّة الإمكان — الغزاليّ في «الاقتصاد في الاعتقاد»، ابن سينا في «الإشارات»، ابن تيمية في «درء التعارض».
 
@@ -17,7 +18,10 @@
 
 ## الفصل الثالث
 - `[^contingency]` حجّة الإمكان (إعادة).
-- `[^fine-tuning]` Fine-tuning — يُحال إلى أدبيّاتٍ معتمدةٍ في الكوسمولوجيا.
+- `[^fine-tuning]` Fine-tuning — يُحال إلى أدبيّاتٍ معتمدةٍ في الكوسمولوجيا (Martin Rees, *Just Six Numbers*, 1999؛ Barnes & Lewis, *A Fortunate Universe*, 2016).
+- `[^constants]` القيم العدديّة للثوابت (α، mₑ، αₛ، Λ) بوحداتها: CODATA 2018 (α، mₑ)؛ Particle Data Group 2022 (αₛ)؛ Planck 2018 results VI, *A&A*, 2020 (Λ ونِسَب مكوّنات الكون)؛ مفارقة طاقة الفراغ: S. Weinberg, *The Cosmological Constant Problem*, Rev. Mod. Phys., 1989.
+- `[^fine-tuning-alternatives]` بدائل الضبط الدقيق: تعدّد الأكوان/المشهد الوتريّ — Susskind, *The Cosmic Landscape*, 2005؛ التنبّؤ الأنثروبيّ بالثابت الكونيّ — Weinberg, *Phys. Rev. Lett.*, 1987؛ التضخّم الأبديّ — Guth، Linde، Vilenkin (*Many Worlds in One*, 2006)؛ اقتراح اللاحدّ — Hartle & Hawking, *Phys. Rev. D*, 1983.
+- `[^limits-of-understanding]` حدود الفهم: نِسَب المادّة/الطاقة المظلمة — Planck 2018 results VI, *A&A*, 2020؛ مشكلة توحيد الكمّ والنسبيّة (الجاذبيّة الكموميّة) — مرجع تمهيديّ معتمد.
 - `[^itnotes]` ضوابط النقل عن ابن تيمية في «درء تعارض العقل والنقل».
 - `[^wigner-recall]` استذكار شاهد فيغنر السابق.
 

@@ -56,6 +56,7 @@
 - `[^tafasir-shura-30]` تفسير «وَمَا أَصَابَكُم مِّن مُّصِيبَةٍ» (الشورى، 30) — الطبريّ، ابن كثير، السعديّ.
 
 ## الفصل الحادي عشر
+- `[^memory-traces]` هشاشةُ الأثر العصبيّ للذاكرة وقابليّتُها للتشويه (الطبقة الفيزيائيّة، تمييزًا لها عن السِّجِلّ الغيبيّ) — Elizabeth F. Loftus, *Creating False Memories*, Scientific American, 1997؛ Karim Nader, Glenn Schafe & Joseph LeDoux, *Nature*, 2000 (إعادة التماسك)؛ Susumu Tonegawa et al., *Science*, 2012–2015 (الأثر العصبيّ/engram).
 - `[^hadith-niyya-bukhari-muslim]` حديث «إنّما الأعمال بالنيّات» — البخاريّ ومسلم.
 - `[^sabaa-qabla-sabaa]` حديث «بادروا بالأعمال سبعًا» — يُحال إلى المصدر مع حكم المحدّثين.
 
@@ -69,3 +70,6 @@
 - `[^origin-of-life]` أصل الحياة (سؤال مفتوح) — Stanley L. Miller, *Science*, 1953؛ Walter Gilbert, *The RNA World*, Nature, 1986؛ وأعمال Jack W. Szostak في أنظمة الحياة البدائيّة.
 - `[^genetic-code]` الشيفرة الوراثيّة و«الصُّدفة المُجمَّدة» — Francis H. C. Crick, *The Origin of the Genetic Code*, J. Mol. Biol., 1968.
 - `[^consciousness-theories]` نظريّات الوعي المتنازَعة — Giulio Tononi, *An Information Integration Theory of Consciousness*, BMC Neuroscience, 2004؛ Bernard J. Baars, *A Cognitive Theory of Consciousness*, 1988؛ Stanislas Dehaene, *Consciousness and the Brain*, 2014.
+
+## الملحق (ب)
+- **الإنبات (شاهد توضيحيّ، فسيولوجيا النبات):** وصفُ الامتصاص والتنشيط الداخليّ وانقسام الخلايا وتمدُّد الجنين النباتيّ — يُحال إلى مرجعٍ معتمد في فسيولوجيا النبات (مثل Taiz & Zeiger, *Plant Physiology*). **وسم وظيفيّ:** شاهد توضيحيّ على «النظام المحفوظ المنتظِر شرطَه»، لا تفسيرٌ للآية. وقد أُضيف في القسم 4 فاصلٌ لفظيٌّ صريحٌ بين الآية والتمثيل الرمزيّ، استجابةً لملاحظة `CRITIQUE.md` حول خطر الانزلاق من النصّ القرآنيّ إلى التأمّل أو الزخرفة العلميّة.

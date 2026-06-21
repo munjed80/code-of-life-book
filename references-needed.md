@@ -47,10 +47,12 @@
 - `[^aqilha-watawakkal]` حديث «اعقلها وتوكّل» — سنن الترمذيّ، أبواب صفة القيامة، رقم 2517 (مع ذِكر حكم المحدِّثين).
 
 ## الفصل التاسع
+- `[^chaos-complexity-bayes]` نظريّة الفوضى الحَتميّة والأنظمة المعقّدة والاستدلال البايزيّ — Edward N. Lorenz, *Deterministic Nonperiodic Flow*, J. Atmospheric Sciences, 1963؛ James Gleick, *Chaos: Making a New Science*, 1987؛ E. T. Jaynes, *Probability Theory: The Logic of Science*, 2003.
 - `[^dua-three-ways]` حديث الدعاء وأبوابه الثلاثة — يُحال إلى الكتاب والباب.
 - `[^kafara-bukhari-muslim]` حديث تكفير المصائب للذنوب — البخاريّ ومسلم.
 
 ## الفصل العاشر
+- `[^victim-blaming-biases]` التحيّزات المعرفيّة المُغذِّية للوم الضحيّة — Lerner & Simmons, *J. Pers. Soc. Psychol.*, 1966 (فرضيّة العالم العادل)؛ Lee Ross, *Adv. Exp. Soc. Psychol.*, 1977 (خطأ الإسناد الأساسيّ)؛ Baruch Fischhoff, *J. Exp. Psychol.*, 1975 (تحيّز الإدراك البعديّ).
 - `[^tafasir-shura-30]` تفسير «وَمَا أَصَابَكُم مِّن مُّصِيبَةٍ» (الشورى، 30) — الطبريّ، ابن كثير، السعديّ.
 
 ## الفصل الحادي عشر

@@ -47,6 +47,7 @@ FILES_ORDER: List[Tuple[str, str]] = [
     ("appendix-a-formative-bridge.md", "الملحق أ"),
     ("appendix-b-symbolic-code.md", "الملحق ب"),
     ("conclusion.md", "خاتمة الكتاب"),
+    ("scientific-references.md", "المراجع العلميّة"),
 ]
 
 # أسماء الملفات الداخليّة التي يَجب ألا تَظهر في نسخة النشر

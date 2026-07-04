@@ -41,10 +41,14 @@
 - `[^tafasir-anshanahu-khalqan-akhar]` تفسير «ثُمَّ أَنشَأْنَاهُ خَلْقًا آخَرَ» (المؤمنون، 14) — الطبريّ، ابن كثير.
 - `[^tafasir-al-bayan]` تفسير «عَلَّمَهُ الْبَيَانَ» (الرحمن، 4) — الطبريّ، القرطبيّ، السعديّ.
 - `[^tafasir-al-amana]` تفسير «إِنَّا عَرَضْنَا الْأَمَانَةَ» (الأحزاب، 72) — ابن كثير، القرطبيّ.
+- `[^cardiac-neuroscience-ch06]` الجهازُ العصبيُّ القلبيُّ و«الدماغُ الصغير للقلب» — Armour, J. A. (2003). *Neurocardiology: Anatomical and Functional Principles*. HeartMath Research Center؛ McCraty, R. et al. (2009). The Coherent Heart. *Integrative Medicine*, 6(4). (يحتاج إلى توثيق مُتحقَّق منه)
 
 ## الفصل السابع
 - `[^complex-systems]` نظريّةُ الفوضى الحَتميّة والأنظمة المُعقَّدة — James Gleick, *Chaos: Making a New Science*, 1987.
 - `[^aqilha-watawakkal]` حديث «اعقلها وتوكّل» — سنن الترمذيّ، أبواب صفة القيامة، رقم 2517 (مع ذِكر حكم المحدِّثين).
+
+## الفصل الثامن
+- `[^proximity-microbiome-ch08]` تشارك الميكروبيوم بين المتجاورين — Tun, H. M. et al. (2017). Exposure to household furry pets influences the gut microbiota of infant at 3–4 months. *Microbiome*, 5(1), 40؛ وأعمال عموم دراسات الميكروبيوم المشترك بين الزوجين (يحتاج إلى توثيق مُتحقَّق منه).
 
 ## الفصل التاسع
 - `[^chaos-complexity-bayes]` نظريّة الفوضى الحَتميّة والأنظمة المعقّدة والاستدلال البايزيّ — Edward N. Lorenz, *Deterministic Nonperiodic Flow*, J. Atmospheric Sciences, 1963؛ James Gleick, *Chaos: Making a New Science*, 1987؛ E. T. Jaynes, *Probability Theory: The Logic of Science*, 2003.
@@ -56,9 +60,11 @@
 - `[^tafasir-shura-30]` تفسير «وَمَا أَصَابَكُم مِّن مُّصِيبَةٍ» (الشورى، 30) — الطبريّ، ابن كثير، السعديّ.
 
 ## الفصل الحادي عشر
-- `[^memory-traces]` هشاشةُ الأثر العصبيّ للذاكرة وقابليّتُها للتشويه (الطبقة الفيزيائيّة، تمييزًا لها عن السِّجِلّ الغيبيّ) — Elizabeth F. Loftus, *Creating False Memories*, Scientific American, 1997؛ Karim Nader, Glenn Schafe & Joseph LeDoux, *Nature*, 2000 (إعادة التماسك)؛ Susumu Tonegawa et al., *Science*, 2012–2015 (الأثر العصبيّ/engram).
+- `[^memory-traces]` هشاشةُ الأثر العصبيّ للذاكرة وقابليّتُها للتشويه — Elizabeth F. Loftus, *Creating False Memories*, Scientific American, 1997؛ Karim Nader, Glenn Schafe & Joseph LeDoux, *Nature*, 2000؛ Susumu Tonegawa et al., *Science*, 2012–2015.
 - `[^hadith-niyya-bukhari-muslim]` حديث «إنّما الأعمال بالنيّات» — البخاريّ ومسلم.
 - `[^sabaa-qabla-sabaa]` حديث «بادروا بالأعمال سبعًا» — يُحال إلى المصدر مع حكم المحدّثين.
+- `[^info-conservation-ch11]` حفظ المعلومة الفيزيائيّ وفيزياء الثقوب السوداء — Susskind, L., & Lindesay, J. (2005). *An Introduction to Black Holes, Information and the String Theory Revolution*. World Scientific. (يحتاج إلى توثيق)
+- `[^paleomagnetism-ch11]` المغناطيسيّةُ المُتبقيّة وعلم المغناطيسيّة الأثريّة — Tauxe, L. (2010). *Essentials of Paleomagnetism*. University of California Press؛ Lanos, P. & Kovacheva, M. (2012). Archaeomagnetic dating. *Journal of Archaeological Science*. (يحتاج إلى توثيق مُتحقَّق منه)
 
 ## الفصل الثاني عشر
 - `[^hadhim-al-ladhdhat]` حديث «أكثروا ذِكر هاذم اللذّات» — يُحال إلى المصدر مع حكم المحدّثين.

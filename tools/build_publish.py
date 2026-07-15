@@ -241,8 +241,16 @@ def parse_blocks(md: str) -> List[dict]:
                 q = re.sub(r"^\s*>\s?", "", lines[i])
                 quote_lines.append(q.strip())
                 i += 1
-            text = " ".join(s for s in quote_lines if s).strip()
-            blocks.append({"type": "blockquote", "text": text})
+            seg = [s for s in quote_lines]
+            label = None
+            first = seg[0].strip() if seg else ""
+            m_label = re.fullmatch(r"\*\*(.+?)\*\*", first)
+            rest = [s for s in seg[1:] if s]
+            if m_label and rest:
+                label = m_label.group(1).strip()
+                seg = seg[1:]
+            text = " ".join(s for s in seg if s).strip()
+            blocks.append({"type": "blockquote", "label": label, "text": text})
             continue
 
         m = re.match(r"^(\d+)\.\s+(.*)$", stripped)
@@ -336,7 +344,14 @@ def build_clean_markdown(file_blocks: List[Tuple[str, List[dict]]]) -> str:
                 out.append(b["text"].strip())
                 out.append("")
             elif t == "blockquote":
-                out.append(f"> {b['text'].strip()}")
+                label = b.get("label")
+                body = b["text"].strip()
+                if label:
+                    out.append(f"> **{label.strip()}**")
+                    if body:
+                        out.append(f"> {body}")
+                else:
+                    out.append(f"> {body}")
                 out.append("")
             elif t == "hr":
                 out.append("---")
@@ -394,8 +409,15 @@ def build_print_text(file_blocks: List[Tuple[str, List[dict]]]) -> str:
                 out.append(clean_inline(b["text"]))
                 out.append("")
             elif t == "blockquote":
+                label = b.get("label")
                 txt = clean_inline(b["text"])
-                if txt:
+                if label:
+                    lbl = clean_inline(label)
+                    out.append(f"{lbl}:")
+                    if txt:
+                        out.append(txt)
+                    out.append("")
+                elif txt:
                     out.append(txt)
                     out.append("")
             elif t == "list_item":
@@ -464,6 +486,9 @@ HTML_HEAD = """<!doctype html>
     background: #f6f6f4;
     text-indent: 0;
   }}
+  blockquote p {{ margin: 0 0 0.5em; text-indent: 0; }}
+  blockquote p:last-child {{ margin-bottom: 0; }}
+  blockquote .quote-label {{ font-weight: 800; margin-bottom: 0.2em; }}
   ol, ul {{ margin: 0 0 1em; padding-inline-start: 1.6em; }}
   li {{ margin-bottom: 0.35em; text-indent: 0; }}
   hr {{ border: 0; border-top: 1px solid #bbb; margin: 2em auto; width: 60%; }}
@@ -532,7 +557,15 @@ def render_html_blocks(blocks: List[dict]) -> str:
             out.append(f"<p>{html.escape(clean_inline(b['text']))}</p>")
             i += 1
         elif t == "blockquote":
-            out.append(f"<blockquote>{html.escape(clean_inline(b['text']))}</blockquote>")
+            label = b.get("label")
+            txt = html.escape(clean_inline(b["text"]))
+            if label:
+                lbl = html.escape(clean_inline(label))
+                out.append(
+                    f"<blockquote><p class=\"quote-label\"><strong>{lbl}</strong></p><p>{txt}</p></blockquote>"
+                )
+            else:
+                out.append(f"<blockquote>{txt}</blockquote>")
             i += 1
         elif t == "hr":
             out.append("<hr>")

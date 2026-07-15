@@ -633,7 +633,7 @@ def build_html(file_blocks: List[Tuple[str, List[dict]]]) -> str:
 # تَوليد PDF (publish/book-print.pdf) — يستعمل WeasyPrint
 # ---------------------------------------------------------------------------
 
-def build_pdf(html_content: str, output_path: "Path") -> bool:
+def build_pdf(html_content: str, output_path: Path) -> bool:
     """يُحوِّل HTML إلى PDF عبر WeasyPrint. يُعيد True عند النجاح."""
     try:
         from weasyprint import HTML as WP_HTML
@@ -909,7 +909,7 @@ def _chapter_xhtml(blocks: List[dict]) -> str:
     return "\n".join(parts)
 
 
-def build_epub(file_blocks: List[Tuple[str, List[dict]]], output_path: "Path") -> bool:
+def build_epub(file_blocks: List[Tuple[str, List[dict]]], output_path: Path) -> bool:
     """يبني ملف EPUB عربيًّا RTL من كتل الملفات المُحلَّلة."""
     try:
         from ebooklib import epub
@@ -997,12 +997,23 @@ def main() -> None:
     (PUBLISH_DIR / "book-final.md").write_text(md_out, encoding="utf-8")
 
     # نسخة الطباعة النصيّة
-    txt_out = build_print_text(file_blocks)
-    (PUBLISH_DIR / "book-print.txt").write_text(txt_out, encoding="utf-8")
+    txt_ok = False
+    try:
+        txt_out = build_print_text(file_blocks)
+        (PUBLISH_DIR / "book-print.txt").write_text(txt_out, encoding="utf-8")
+        txt_ok = True
+    except Exception as exc:
+        print(f"[خطأ] فشل توليد TXT: {exc}")
 
     # النسخة الإلكترونيّة HTML
-    html_out = build_html(file_blocks)
-    (PUBLISH_DIR / "book-ebook.html").write_text(html_out, encoding="utf-8")
+    html_ok = False
+    html_out = ""
+    try:
+        html_out = build_html(file_blocks)
+        (PUBLISH_DIR / "book-ebook.html").write_text(html_out, encoding="utf-8")
+        html_ok = True
+    except Exception as exc:
+        print(f"[خطأ] فشل توليد HTML: {exc}")
 
     # PDF
     pdf_ok = build_pdf(html_out, PUBLISH_DIR / "book-print.pdf")
@@ -1018,8 +1029,8 @@ def main() -> None:
     epub_ok = build_epub(file_blocks, PUBLISH_DIR / "book.epub")
 
     print(f"تم بناء نسخة النشر في: {PUBLISH_DIR}")
-    print(f"  book-print.txt  {'✓' if True else '✗'}")
-    print(f"  book-ebook.html {'✓' if True else '✗'}")
+    print(f"  book-print.txt  {'✓' if txt_ok else '✗'}")
+    print(f"  book-ebook.html {'✓' if html_ok else '✗'}")
     print(f"  book-print.pdf  {'✓' if pdf_ok else '✗ (تحتاج: pip install weasyprint)'}")
     print(f"  book.docx       {'✓' if docx_ok else '✗ (تحتاج: pip install python-docx)'}")
     print(f"  book.epub       {'✓' if epub_ok else '✗ (تحتاج: pip install ebooklib)'}")

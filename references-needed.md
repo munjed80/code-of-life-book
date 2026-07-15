@@ -4,6 +4,10 @@
 موزَّعةً في فصول الكتاب، تمهيدًا لتَحويلها إلى هوامش منظَّمة في النسخة
 الورقيّة، أو إلى قائمة مراجع في آخر الكتاب.
 
+## المقدمة
+- `[^intro-relativity]` نسبيّة الزمن وتمدُّده مع الحركة والجاذبيّة، وتصحيحات أنظمة تحديد المواقع (GPS) — النسبيّة الخاصّة (Einstein, 1905) والعامّة (Einstein, 1915)؛ تجربة الساعات الطائرة (Hafele & Keating, *Science*, 1972)؛ ومراجعة التصحيحات النسبيّة في نظام GPS (Neil Ashby, *Relativity in the Global Positioning System*, Living Reviews in Relativity, 2003). وسمٌ وظيفيّ: **قانون راسخ** ضمن نطاقه.
+- `[^intro-cosmology]` بداية التوسّع الكونيّ وإشعاع الخلفيّة الميكرويّ الكونيّ (CMB) — رصد تباعُد المجرّات (Hubble, *PNAS*, 1929)؛ اكتشاف إشعاع الخلفيّة (Penzias & Wilson, *ApJ*, 1965)؛ وأحدث قياساته (Planck 2018 results VI, *A&A*, 2020). وسمٌ وظيفيّ: **نموذج تفسيريّ** راسخ.
+
 ## الفصل الأول
 - `[^thermo]` القانون الثاني للديناميكا الحراريّة وزيادة الإنتروبيا — يُحال إلى مرجعٍ تمهيديّ معتمد في الفيزياء الإحصائيّة.
 - `[^entropy-distinction]` التمييز بين إنتروبيا بولتزمان–غِبس (الفيزياء الإحصائيّة، جول/كلفن) وإنتروبيا شانون (نظريّة المعلومات، بِتّات) — Claude E. Shannon, *A Mathematical Theory of Communication*, Bell System Technical Journal, 1948؛ ومبدأ لانداور: Rolf Landauer, *Irreversibility and Heat Generation in the Computing Process*, IBM J. Res. Dev., 1961.

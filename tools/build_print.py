@@ -252,8 +252,12 @@ def blocks_to_print_text(file_blocks: List[Tuple[str, List[dict]]]) -> str:
                 txt = clean_inline(b["text"])
                 if label:
                     lbl = clean_inline(label)
-                    # الوسم على سطرٍ مستقلٍّ مذيَّلٍ بنقطتين، ثم جسمُه بعده
-                    out.append(f"{lbl}:")
+                    # الوسم على سطرٍ مستقلٍّ؛ يُذيَّل بنقطتين ما لم يَكن مُنتهيًا
+                    # بعلامة ترقيمٍ أصلًا (كالجملة المُبرَزة القائمة بذاتها).
+                    if lbl and lbl[-1] in "؟!.:؛…،":
+                        out.append(lbl)
+                    else:
+                        out.append(f"{lbl}:")
                     if txt:
                         out.append(txt)
                     out.append("")

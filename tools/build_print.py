@@ -418,8 +418,9 @@ def render_html_blocks(blocks: List[dict]) -> str:
             txt = html.escape(clean_inline(b["text"]))
             if label:
                 lbl = html.escape(clean_inline(label))
+                body = f"<p>{txt}</p>" if txt else ""
                 out.append(
-                    f"<blockquote><p class=\"quote-label\"><strong>{lbl}</strong></p><p>{txt}</p></blockquote>"
+                    f"<blockquote><p class=\"quote-label\"><strong>{lbl}</strong></p>{body}</blockquote>"
                 )
             else:
                 out.append(f"<blockquote>{txt}</blockquote>")

@@ -1,0 +1,6 @@
+# متطلبات بناء نسخ النشر
+# الاستعمال: pip install -r tools/requirements.txt
+
+python-docx>=1.1.0
+ebooklib>=0.18
+weasyprint>=60.0

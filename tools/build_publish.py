@@ -44,6 +44,8 @@ FILES_ORDER: List[Tuple[str, str]] = [
     ("chapter-10.md", "الفصل العاشر"),
     ("chapter-11.md", "الفصل الحادي عشر"),
     ("chapter-12.md", "الفصل الثاني عشر"),
+    ("chapter-13.md", "الفصل الثالث عشر"),
+    ("chapter-14.md", "الفصل الرابع عشر"),
     ("appendix-a-formative-bridge.md", "الملحق أ"),
     ("appendix-b-symbolic-code.md", "الملحق ب"),
     ("conclusion.md", "خاتمة الكتاب"),
